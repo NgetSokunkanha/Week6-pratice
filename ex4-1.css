@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content span {
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 28px;
+    font-weight: bold;
+    display: none; 
+}
+
+.big {
+    background-color: #6cc24a;
+    color: white;
+    display: inline-block; 
+}
+
+.small {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+@media screen , (max-width: 500px) {
+    .big {
+        display: none;
+    }
+    .small {
+        display: inline-block;
+    }
+}

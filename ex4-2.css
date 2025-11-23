@@ -1,0 +1,20 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: #ccff00;
+    height: 300px;
+    width: clamp(300px, 100%, 800px);
+}
